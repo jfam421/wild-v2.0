@@ -1,0 +1,56 @@
+
+body{
+font-family: 'Gabriela', serif;
+
+}
+
+.menuContainer{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 375px;
+
+    
+}
+.menuItem{
+    text-align: left;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flexReverse{
+    flex-direction: row-reverse;
+    text-align: right;
+    align-items: center;
+}
+
+.menuItem:hover{
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.menuItemName{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menuWriper{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/background.png');
+        
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
