@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Guy Vulitski</h1>
+<h2 align="center">Hi, I'm Guy Vulitski</h2>
 <h3 align="center">A passionate backend developer from Israel</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jfam421" alt="jfam421" /></a> </p>
