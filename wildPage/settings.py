@@ -94,7 +94,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'wildPage.urls'
-
+CSRF_TRUSTED_ORIGINS = ['https://wild-b.herokuapp.com']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -144,7 +144,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-CSRF_TRUSTED_ORIGINS = ['https://example.com']
+
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
