@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ea3ebab.css",
+    "main.js": "/static/js/main.394744c3.js",
+    "static/js/787.c80cac92.chunk.js": "/static/js/787.c80cac92.chunk.js",
+    "static/media/ReggaeOne-Regular.ttf": "/static/media/ReggaeOne-Regular.25085ba95c26015cc9ff.ttf",
+    "static/media/background.png": "/static/media/background.5efec264615178f864d0.png",
+    "static/media/wild-logo.png": "/static/media/wild-logo.ef8f597ece7c8e5c41e5.png",
+    "static/media/Gabriela-Regular.ttf": "/static/media/Gabriela-Regular.e4cfb90e7ba8a0f1bd25.ttf",
+    "static/media/fries.png": "/static/media/fries.5d3219a8902250d81740.png",
+    "static/media/languageLogo.png": "/static/media/languageLogo.14bb8fea34f8ee1ca54c.png",
+    "index.html": "/index.html",
+    "main.5ea3ebab.css.map": "/static/css/main.5ea3ebab.css.map",
+    "main.394744c3.js.map": "/static/js/main.394744c3.js.map",
+    "787.c80cac92.chunk.js.map": "/static/js/787.c80cac92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea3ebab.css",
+    "static/js/main.394744c3.js"
+  ]
+}
