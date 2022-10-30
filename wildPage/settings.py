@@ -119,8 +119,12 @@ WSGI_APPLICATION = 'wildPage.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dc3abcm8vb40jk',
+        'USER':'njbacqoyhiplcx',
+        'PASSWORD':'a202b5006b3260f6552eed9cf189e6d902adb3b8b02b695513c28e7779775367',
+        'HOST':'ec2-34-248-169-69.eu-west-1.compute.amazonaws.com', 
+        'PORT':'5432'
     }
 }
 
