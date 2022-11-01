@@ -95,7 +95,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'wildPage.urls'
 CSRF_TRUSTED_ORIGINS = ['https://wild-b.herokuapp.com']
-CORS_ALLOWED_ORIGINS = ['https://wild-b.herokuapp.com', "http://localhost:3000"]
+CORS_ALLOWED_ORIGINS = ['https://wild-b.herokuapp.com', "http://127.0.0.1:3000"]
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
