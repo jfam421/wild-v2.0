@@ -65,7 +65,7 @@ export default function Header(props) {
                    <p key={index} style={(language==2 ? {textAlign: "right"} : {textAlign: "left"})}  onClick={() => {
                         setShowMenu(!showMenu);
                         setSlide(index);
-                        }}>{item.name}</p>
+                        }}>{item.type}</p>
                 </>
         })}
             </div>
