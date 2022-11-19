@@ -45,15 +45,16 @@ export default function Header(props) {
         const data = await result.json();
         setDataArray(data);
     }
+
     let typesArray = [];
-    dataArray.filter(item => item.lang === currentLang).map(item => {
+
+    props.itemsList && props.itemsList.filter(item => item.lang === currentLang).map(item => {
       if (!typesArray.includes(item.type)) {
         typesArray.push(item.type);
       }
     })
 
-    console.log("THIS IS TYPES ARR")
-    console.log(typesArray)
+    console.log(typesArray);
 
     return (
         <div className='header'>
