@@ -45,6 +45,15 @@ export default function Header(props) {
         const data = await result.json();
         setDataArray(data);
     }
+    let typesArray = [];
+    dataArray.filter(item => item.lang === currentLang).map(item => {
+      if (!typesArray.includes(item.type)) {
+        typesArray.push(item.type);
+      }
+    })
+
+    console.log("THIS IS TYPES ARR")
+    console.log(typesArray)
 
     return (
         <div className='header'>
@@ -60,7 +69,7 @@ export default function Header(props) {
                 </div>
             </div>
             <div className='full-menu' style={(showMenu ? {top: "0%"} : {top: "-100%"})}>
-                {dataArray.filter(item => item.lang === currentLang).map((item, index)=>{
+                {typesArray.map((item, index)=>{
                 return<>
                    <p key={index} style={(language==2 ? {textAlign: "right"} : {textAlign: "left"})}  onClick={() => {
                         setShowMenu(!showMenu);
