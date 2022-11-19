@@ -38,6 +38,21 @@ export default function Header(props) {
         }
     }, [language]);
 
+    
+  useEffect(() =>{
+    switch (location) {
+      case 'drinks':
+        getData('drink');
+        break;
+      case 'food':
+        getData('food');
+        break;
+      case 'hookah':
+        getData('hookah');
+        break;
+    }
+  }, [location]);
+  
         const getData = async (type) => {
         const result = await fetch(`https://wild-b.herokuapp.com/api/${type}`, {
           mode: 'cors'
@@ -45,16 +60,15 @@ export default function Header(props) {
         const data = await result.json();
         setDataArray(data);
     }
-
     let typesArray = [];
-
-    props.itemsList && props.itemsList.filter(item => item.lang === currentLang).map(item => {
+    dataArray.filter(item => item.lang === currentLang).map(item => {
       if (!typesArray.includes(item.type)) {
         typesArray.push(item.type);
       }
     })
 
-    console.log(typesArray);
+    console.log("THIS IS TYPES ARR")
+    console.log(typesArray)
 
     return (
         <div className='header'>
