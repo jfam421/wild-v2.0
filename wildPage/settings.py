@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-wk)ii--o_m!gyxxg1qk^4yjjx^d$#6jbnf3jhqg5^h@7f2us=3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wild-b.herokuapp.com']
+ALLOWED_HOSTS = ['wild.herokuapp.com']
 
 # Application definition
 
@@ -94,8 +94,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'wildPage.urls'
-CSRF_TRUSTED_ORIGINS = ['https://wild-b.herokuapp.com']
-CORS_ALLOWED_ORIGINS = ['https://wild-b.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://wild.herokuapp.com']
+CORS_ALLOWED_ORIGINS = ['https://wild.herokuapp.com']
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -120,10 +120,10 @@ WSGI_APPLICATION = 'wildPage.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dc3abcm8vb40jk',
-        'USER':'njbacqoyhiplcx',
-        'PASSWORD':'a202b5006b3260f6552eed9cf189e6d902adb3b8b02b695513c28e7779775367',
-        'HOST':'ec2-34-248-169-69.eu-west-1.compute.amazonaws.com', 
+        'NAME': 'df1mro275jvr1u',
+        'USER':'ektuazflxfzvqw',
+        'PASSWORD':'3ca237848190444787fddaa44ca11257522508591dda3dd9f7dc67ea298460f6',
+        'HOST':'ec2-63-35-156-160.eu-west-1.compute.amazonaws.com', 
         'PORT':'5432'
     }
 }
