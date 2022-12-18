@@ -28,7 +28,7 @@ function MainMenu() {
   }, [location]);
 
     const getData = async (type) => {
-        const result = await fetch(`https://wild-b.herokuapp.com/api/${type}`, {
+        const result = await fetch(`https://wild.herokuapp.com/api/${type}`, {
           mode: 'cors'
         });
         const data = await result.json();
