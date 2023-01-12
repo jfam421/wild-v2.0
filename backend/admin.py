@@ -4,8 +4,8 @@ from django.contrib.auth.models import Group
 
 @admin.action(description='Mark selected stories and copy them')
 def change_type(modeladmin, request, queryset):
-    queryset.all()
-    queryset.update(product_type='קל')
+    new_obj = queryset.all()
+    new_obj.update(product_type='קל')
 
 class FoodAdmin(admin.ModelAdmin):
     search_fields = ['itemName', "product_type"]
