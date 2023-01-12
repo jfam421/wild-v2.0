@@ -120,10 +120,10 @@ WSGI_APPLICATION = 'wildPage.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'df1mro275jvr1u',
-        'USER':'ektuazflxfzvqw',
-        'PASSWORD':'3ca237848190444787fddaa44ca11257522508591dda3dd9f7dc67ea298460f6',
-        'HOST':'ec2-63-35-156-160.eu-west-1.compute.amazonaws.com', 
+        'NAME': 'df9q1bblr9nib4',
+        'USER':'szxyqthmnzeseb',
+        'PASSWORD':'03e848281583e4b51f3706912d243239d7c2ef98fb3391c1b8ee8fd19fa4f614',
+        'HOST':'ec2-54-155-129-189.eu-west-1.compute.amazonaws.com', 
         'PORT':'5432'
     }
 }
